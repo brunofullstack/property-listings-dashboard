@@ -23,6 +23,15 @@
             </select>
           </div>
 
+          <div class="mb-4">
+            <label class="block text-gray-700">Image:</label>
+            <input type="file" @change="handleImageUpload" class="w-full p-2 border border-gray-300" />
+          </div>
+
+          <div v-if="form.image" class="mb-4">
+            <img :src="form.image" alt="Selected Image" class="max-w-full h-auto" />
+          </div>
+
           <div class="flex justify-end">
             <button @click="$emit('close')" type="button" class="bg-gray-500 text-white px-4 py-2 mr-2">Cancel</button>
             <button type="submit" class="bg-blue-500 text-white px-4 py-2">Save</button>
@@ -47,15 +56,27 @@
     name: '',
     price: 0,
     status: 'available',
+    image: null, // Adiciona uma propriedade para armazenar a imagem
   })
 
   watch(props.property, (newProperty) => {
     if (newProperty) {
       form.value = { ...newProperty }
     } else {
-      form.value = { name: '', price: 0, status: 'available' }
+      form.value = { name: '', price: 0, status: 'available', image: null }
     }
   }, { immediate: true })
+
+  const handleImageUpload = (event) => {
+    const file = event.target.files[0]
+    if (file) {
+      const reader = new FileReader()
+      reader.onload = (e) => {
+        form.value.image = e.target.result as string
+      }
+      reader.readAsDataURL(file)
+    }
+  }
 
   const saveProperty = () => {
     if (props.property) {

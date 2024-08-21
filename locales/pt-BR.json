@@ -1,0 +1,82 @@
+{
+    "locale.en-US": "English",
+    "locale.pt-BR": "Português",
+    "locale.de-DE": "Deutsch",
+    "locale.ar-AR": "Arabic",
+    "locale.dir": "ltr",
+    "site": {
+      "name": "Property Listings"
+    },
+    "themes": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "cookies": {
+      "bar": {
+        "title": "🍪 Olá. Este site usa cookies",
+        "description": "Utilizamos cookies e tecnologias semelhantes para ajudar a personalizar o conteúdo e oferecer uma melhor experiência. Você pode optar por personalizá-los clicando no botão personalizar."
+      },
+      "modal": {
+        "title": "Personalizar",
+        "description": "Usamos diferentes tipos de cookies para otimizar sua experiência em nosso site. Clique nas categorias abaixo para saber mais sobre suas finalidades. Você pode escolher os tipos de cookies a serem permitidos e pode alterar suas preferências mais tarde. Lembre-se de que desabilitar os cookies pode afetar sua experiência.",
+        "privacy-policy": "Política de Privacidade"
+      },
+      "necessary": {
+        "title": "Cookies estritamente necessários",
+        "description": "Esses cookies são essenciais para o funcionamento adequado do meu site. Sem esses cookies, o site não funcionaria corretamente"
+      }
+    },
+    "error": {
+      "return": "Voltar",
+      "page-not-found": "Página não encontrada"
+    },
+    "pages": {
+      "index": {
+        "meta": {
+          "title": "Home",
+          "description": "Página inicial"
+        },
+        "link": "Home",
+        "hero": {
+          "title": "Listagem de propriedades",
+          "subtitle": "Bruno Carvalho Teixeira",
+          "description": "Painel de gerenciamento de listagens de propriedades"
+        },
+        "features": {
+          "googleFonts": "Google Fonts",
+          "eslint": "ESLint",
+          "Typescript": "Typescript",
+          "Prettier": "Prettier",
+          "imageOptim": "Image optimization",
+          "TailwindCSS": "TailwindCSS",
+          "darkMode": "Dark mode",
+          "i18n": "Localization (i18n)",
+          "postcss": "PostCSS",
+          "lightHouse": "Lighthouse 100%",
+          "deviceDetect": "Device detection",
+          "cookies": "Cookie banner",
+          "Iconify": "Iconify",
+          "Pinia": "Pinia"
+        }
+      },
+      "about": {
+        "meta": {
+          "title": "Sobre",
+          "description": "Sobre o desafio"
+        },
+        "link": "Sobre",
+        "title": "Sobre",
+        "p": "Desenvolver um painel de gerenciamento de listagens de imóveis para um CRM imobiliário usando Vue 3, TypeScript, TailwindCSS e Pinia. O painel permitirá que os usuários adicionem, visualizem, editem e excluam listagens de propriedades. Cada listagem deve incluir detalhes como endereço da propriedade, preço, descrição e status (por exemplo, Disponível, Vendido, Sob contrato)."
+      },
+      "minimal": {
+        "meta": {
+          "title": "Minimal page (Fullscreen-layout)",
+          "description": "Minimal page using Fullscreen-layout"
+        },
+        "link": "Minimal",
+        "title": "Minimal with Fullscreen-layout",
+        "p": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iste atque, hic porro officiis fugit quae deserunt nobis dolorum odit dignissimos consequatur esse maiores repellat impedit. Quae dolorum id rem?"
+      }
+    }
+  }

@@ -1,0 +1,82 @@
+{
+  "locale.en-US": "English",
+  "locale.pt-BR": "Português",
+  "locale.de-DE": "Deutsch",
+  "locale.ar-AR": "Arabic",
+  "locale.dir": "ltr",
+  "site": {
+    "name": "Immobilienanzeigen"
+  },
+  "themes": {
+    "system": "System",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "cookies": {
+    "bar": {
+      "title": "🍪 Hallo. Diese Website verwendet Cookies",
+      "description": "Wir verwenden Cookies und ähnliche Technologien, um Inhalte zu personalisieren und eine bessere Erfahrung zu bieten. Sie können sie anpassen, indem Sie auf die Schaltfläche Anpassen klicken."
+    },
+    "modal": {
+      "title": "Anpassen",
+      "description": "Wir verwenden verschiedene Arten von Cookies, um Ihre Erfahrung auf unserer Website zu optimieren. Klicken Sie auf die unten stehenden Kategorien, um mehr über ihre Zwecke zu erfahren. Sie können auswählen, welche Arten von Cookies erlaubt sein sollen, und Ihre Präferenzen später ändern. Denken Sie daran, dass das Deaktivieren von Cookies Ihre Erfahrung beeinträchtigen kann.",
+      "privacy-policy": "Datenschutzrichtlinie"
+    },
+    "necessary": {
+      "title": "Unbedingt notwendige Cookies",
+      "description": "Diese Cookies sind für das ordnungsgemäße Funktionieren meiner Website unerlässlich. Ohne diese Cookies würde die Website nicht richtig funktionieren."
+    }
+  },
+  "error": {
+    "return": "Zurück",
+    "page-not-found": "Seite nicht gefunden"
+  },
+  "pages": {
+    "index": {
+      "meta": {
+        "title": "Startseite",
+        "description": "Startseite"
+      },
+      "link": "Startseite",
+      "hero": {
+        "title": "Immobilienanzeigen",
+        "subtitle": "Inoffiziell",
+        "description": "Ein sofort einsatzbereites Starterkit für alle Arten von Projekten"
+      },
+      "features": {
+        "googleFonts": "Google-Schriftarten",
+        "eslint": "ESLint",
+        "Typescript": "Typescript",
+        "Prettier": "Prettier",
+        "imageOptim": "Bildoptimierung",
+        "TailwindCSS": "TailwindCSS",
+        "darkMode": "Dunkelmodus",
+        "i18n": "Lokalisierung (i18n)",
+        "postcss": "PostCSS",
+        "lightHouse": "Lighthouse 100%",
+        "deviceDetect": "Geräteerkennung",
+        "cookies": "Cookie-Banner",
+        "Iconify": "Iconify",
+        "Pinia": "Pinia"
+      }
+    },
+    "about": {
+      "meta": {
+        "title": "Über uns",
+        "description": "Über uns"
+      },
+      "link": "Über uns",
+      "title": "Über uns",
+      "p": "In einem üppigen Garten ist alles ruhig und friedlich. Lebhaft gefärbte Blumen mischen sich mit den dunklen Blättern der großen Bäume. Der süße Duft von Rosen erfüllt die Luft, während der Wind die Blätter tanzen lässt. Man hört das melodische Singen der Vögel, wie eine nie endende natürliche Symphonie. In dieser Oase des Friedens fühlt man sich weit entfernt von der Welt, umhüllt von der Schönheit und Ruhe der Natur."
+    },
+    "minimal": {
+      "meta": {
+        "title": "Minimale Seite (Vollbild-Layout)",
+        "description": "Minimale Seite mit Vollbild-Layout"
+      },
+      "link": "Minimal",
+      "title": "Minimale Seite (Vollbild-Layout)",
+      "p": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iste atque, hic porro officiis fugit quae deserunt nobis dolorum odit dignissimos consequatur esse maiores repellat impedit. Quae dolorum id rem?"
+    }
+  }
+}

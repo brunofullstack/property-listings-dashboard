@@ -5,6 +5,7 @@ interface Property {
   name: string
   price: number
   status: 'available' | 'sold'
+  image: string
 }
 
 export const usePropertyStore = defineStore('property', {
@@ -15,11 +16,11 @@ export const usePropertyStore = defineStore('property', {
     loadProperties() {
       // Mock API or static JSON data
       this.properties = [
-        { id: 1, name: 'Property 1', price: 100000, status: 'available' },
-        { id: 2, name: 'Property 2', price: 150000, status: 'sold' },
-        { id: 3, name: 'Property 3', price: 120000, status: 'available' },
-        { id: 4, name: 'Property 4', price: 200000, status: 'sold' },
-        { id: 5, name: 'Property 5', price: 175000, status: 'available' },
+        { id: 1, name: 'Property 1', price: 100000, status: 'available', image: 'url-to-image-1.jpg' },
+        { id: 2, name: 'Property 2', price: 150000, status: 'sold', image: 'url-to-image-2.jpg' },
+        { id: 3, name: 'Property 3', price: 120000, status: 'available', image: 'url-to-image-3.jpg' },
+        { id: 4, name: 'Property 4', price: 200000, status: 'sold', image: 'url-to-image-4.jpg' },
+        { id: 5, name: 'Property 5', price: 175000, status: 'available', image: 'url-to-image-5.jpg' },
       ]
     },
     addProperty(property: Property) {

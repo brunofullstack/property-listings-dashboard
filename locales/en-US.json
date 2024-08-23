@@ -67,8 +67,7 @@
       },
       "link": "About",
       "title": "About",
-      "p": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iste atque, hic porro officiis fugit quae deserunt nobis dolorum odit dignissimos consequatur esse maiores repellat impedit. Quae dolorum id rem?"
-    },
+"p": "Develop a property listing management dashboard for a real estate CRM using Vue 3, TypeScript, TailwindCSS, and Pinia. The dashboard will allow users to add, view, edit, and delete property listings. Each listing should include details such as property address, price, description, and status (e.g. Available, Sold, Under Contract)."    },
     "minimal": {
       "meta": {
         "title": "Minimal page (Fullscreen-layout)",

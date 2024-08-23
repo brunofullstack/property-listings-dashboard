@@ -67,7 +67,7 @@
       },
       "link": "Über uns",
       "title": "Über uns",
-      "p": "In einem üppigen Garten ist alles ruhig und friedlich. Lebhaft gefärbte Blumen mischen sich mit den dunklen Blättern der großen Bäume. Der süße Duft von Rosen erfüllt die Luft, während der Wind die Blätter tanzen lässt. Man hört das melodische Singen der Vögel, wie eine nie endende natürliche Symphonie. In dieser Oase des Friedens fühlt man sich weit entfernt von der Welt, umhüllt von der Schönheit und Ruhe der Natur."
+      "p": "Entwickeln Sie ein Dashboard zur Verwaltung von Immobilieneinträgen für ein Immobilien-CRM mit Vue 3, TypeScript, TailwindCSS und Pinia. Über das Dashboard können Benutzer Immobilieneinträge hinzufügen, anzeigen, bearbeiten und löschen. Jedes Angebot muss Details wie Objektadresse, Preis, Beschreibung und Status (z. B. Verfügbar, Verkauft, Unter Vertrag) enthalten."
     },
     "minimal": {
       "meta": {

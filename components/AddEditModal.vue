@@ -29,7 +29,7 @@
           </div>
 
           <div v-if="form.image" class="mb-4">
-            <img :src="form.image" alt="Selected Image" class="max-w-full h-auto" />
+            <img :src="form.image" alt="Selected Image" class=" h-48 w-96" />
           </div>
 
           <div class="flex justify-end">

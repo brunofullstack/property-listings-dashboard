@@ -1,0 +1,12 @@
+
+{
+    "builds": [
+      {
+        "src": ".",
+        "use": "@vercel/build-node",
+        "config": {
+          "include": ["dist"]
+        }
+      }
+    ]
+  }

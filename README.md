@@ -45,8 +45,8 @@ pnpm run dev
 ### Clone repo
 
 ```bash
-git clone https://github.com/renegadevi/nuxt-boilerplate.git
-cd nuxt-boilerplate
+git clone https://github.com/brunofullstack/property-listings-dashboard.git
+cd property-listings-dashboard
 ```
 
 ### Install dependencies:

@@ -8,6 +8,10 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=16.x",
+    "npm": ">=8.x"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

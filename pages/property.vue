@@ -9,6 +9,7 @@
         <option value="">Sort by...</option>
         <option value="name">Name</option>
         <option value="price">Price</option>
+        <option value="status">Status</option>
       </select>
     </div>
 

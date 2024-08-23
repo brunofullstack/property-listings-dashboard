@@ -39,9 +39,9 @@
       },
       "link": "Startseite",
       "hero": {
-        "title": "Immobilienanzeigen",
-        "subtitle": "Inoffiziell",
-        "description": "Ein sofort einsatzbereites Starterkit für alle Arten von Projekten"
+        "title": "Immobilienauflistung",
+        "subtitle": "Bruno Carvalho Teixeira",
+        "description": "Dashboard zur Verwaltung von Immobilieneinträgen"
       },
       "features": {
         "googleFonts": "Google-Schriftarten",

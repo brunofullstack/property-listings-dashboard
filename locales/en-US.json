@@ -1,6 +1,7 @@
 {
   "locale.en-US": "English",
   "locale.de-DE": "Deutsch",
+  "locale.pt-BR": "Português",
   "locale.ar-AR": "Arabic",
   "locale.dir": "ltr",
   "site": {
@@ -39,8 +40,8 @@
       "link": "Home",
       "hero": {
         "title": "Property Listings",
-        "subtitle": "Unofficial",
-        "description": "A ready to use starter kit for all kinds of projects"
+        "subtitle": "Bruno Carvalho Teixeira",
+        "description": "Painel de gerenciamento de listagens de propriedades"
       },
       "features": {
         "googleFonts": "Google Fonts",
@@ -73,7 +74,7 @@
         "title": "Minimal page (Fullscreen-layout)",
         "description": "Minimal page using Fullscreen-layout"
       },
-      "link": "Minimal",
+      "link": "Chalenge",
       "title": "Minimal with Fullscreen-layout",
       "p": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque iste atque, hic porro officiis fugit quae deserunt nobis dolorum odit dignissimos consequatur esse maiores repellat impedit. Quae dolorum id rem?"
     }

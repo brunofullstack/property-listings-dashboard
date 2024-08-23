@@ -10,7 +10,7 @@
     "editor.tabSize": 2
   },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "files.trimTrailingWhitespace": true,
   "npm.packageManager": "pnpm",

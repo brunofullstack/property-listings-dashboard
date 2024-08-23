@@ -16,11 +16,11 @@ export const usePropertyStore = defineStore('property', {
     loadProperties() {
       // Mock API or static JSON data
       this.properties = [
-        { id: 1, name: 'Property 1', price: 100000, status: 'available', image: 'url-to-image-1.jpg' },
-        { id: 2, name: 'Property 2', price: 150000, status: 'sold', image: 'url-to-image-2.jpg' },
-        { id: 3, name: 'Property 3', price: 120000, status: 'available', image: 'url-to-image-3.jpg' },
-        { id: 4, name: 'Property 4', price: 200000, status: 'sold', image: 'url-to-image-4.jpg' },
-        { id: 5, name: 'Property 5', price: 175000, status: 'available', image: 'url-to-image-5.jpg' },
+        { id: 1, name: 'Property One 1', price: 100000, status: 'available', image: 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720' },
+        { id: 2, name: 'Property Two 2', price: 150000, status: 'sold', image: 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720' },
+        { id: 3, name: 'Property Three 3', price: 120000, status: 'available', image: 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720' },
+        { id: 4, name: 'Property Four 4', price: 200000, status: 'sold', image: 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720' },
+        { id: 5, name: 'Property Five 5', price: 175000, status: 'available', image: 'https://a0.muscache.com/im/pictures/prohost-api/Hosting-51701996/original/ac2eabbe-da86-4646-a7d7-f6fe48c083b8.jpeg?im_w=720' },
       ]
     },
     addProperty(property: Property) {

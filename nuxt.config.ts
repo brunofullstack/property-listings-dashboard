@@ -50,7 +50,7 @@ export default defineNuxtConfig({
     },
   },
   colorMode: {
-    classSuffix: "",
+    classSuffix: "light",
   },
   image: {
     provider: "ipx",

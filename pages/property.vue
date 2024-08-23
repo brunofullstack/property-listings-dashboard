@@ -4,7 +4,7 @@
     <button @click="openAddModal" class="bg-blue-500 text-white px-4 py-2 mb-4">Add New Property</button>
 
     <div class="mb-4 flex justify-between items-center">
-      <input v-model="filter" placeholder="Filter by status" class="p-2 border border-gray-300" />
+      <input v-model="filter" placeholder="Search" class="p-2 border border-gray-300" />
       <select v-model="sortField" class="p-2 border border-gray-300">
         <option value="">Sort by...</option>
         <option value="name">Name</option>

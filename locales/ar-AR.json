@@ -1,6 +1,7 @@
 {
   "locale.en-US": "English",
   "locale.de-DE": "Deutsch",
+  "locale.pt-BR": "Português",
   "locale.ar-AR": "العربية",
   "locale.dir": "rtl",
   "site": {
@@ -38,9 +39,9 @@
       },
       "link": "الرئيسية",
       "hero": {
-        "title": "قالب Nuxt",
-        "subtitle": "غير رسمي",
-        "description": "مجموعة جاهزة للاستخدام لجميع أنواع المشاريع"
+        "title": "قائمة الممتلكات",
+        "subtitle": "Bruno Carvalho Teixeira",
+        "description": "لوحة إدارة قائمة العقارات"
       },
       "features": {
         "googleFonts": "خطوط جوجل",

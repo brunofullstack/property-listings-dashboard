@@ -67,23 +67,9 @@ useLocaleHead({
             </li>
             <li class="h-full">
               <NuxtLink
-                class="flex h-full w-full items-center justify-center rounded-lg border border-slate-200 bg-gray-50 px-4 text-gray-700 hover:cursor-pointer hover:border-slate-200 hover:bg-slate-200 dark:border-gray-700 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
-                to="/minimal"
-                >{{ $t("pages.minimal.link") }}</NuxtLink
-              >
-            </li>
-            <li class="h-full">
-              <NuxtLink
-                class="flex h-full w-full items-center justify-center rounded-lg border border-slate-200 bg-gray-50 px-4 text-gray-700 hover:cursor-pointer hover:border-slate-200 hover:bg-slate-200 dark:border-gray-700 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
+                class="pulse-animation flex h-full w-full items-center justify-center rounded-lg border border-slate-200 bg-gray-50 px-4 text-gray-700 hover:cursor-pointer hover:border-slate-200 hover:bg-slate-200 dark:border-gray-700 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
                 to="/property"
-                >{{ $t("pages.minimal.link") }}-Property</NuxtLink
-              >
-            </li>
-            <li class="h-full">
-              <NuxtLink
-                class="flex h-full w-full items-center justify-center rounded-lg border border-slate-200 bg-gray-50 px-4 text-gray-700 hover:cursor-pointer hover:border-slate-200 hover:bg-slate-200 dark:border-gray-700 dark:bg-slate-800 dark:text-white dark:hover:bg-slate-700"
-                to="/404"
-                >404</NuxtLink
+                ><Icon name="mdi:arrow-right-thick" size="1.5em" />{{ $t("pages.minimal.link") }}<Icon name="mdi:notebook-edit-outline" size="1.5em" /></NuxtLink
               >
             </li>
           </ul>
@@ -92,7 +78,7 @@ useLocaleHead({
               <NuxtLink
                 class="flex rounded-lg border border-transparent px-4 py-1.5 hover:cursor-pointer hover:opacity-70 dark:hover:opacity-90"
                 target="_blank"
-                to="https://github.com/renegadevi/nuxt-boilerplate"
+                to="https://github.com/brunofullstack"
                 aria-label="Github"
                 ><span class="dark:hidden"
                   ><Icon name="mdi:github" size="auto" color="black" />
@@ -124,5 +110,19 @@ useLocaleHead({
 <style lang="postcss">
 ul .router-link-exact-active {
   @apply border-slate-400 bg-slate-500 text-white hover:border-slate-500 hover:bg-slate-500 dark:border-slate-600 dark:bg-slate-700;
+}
+</style>
+<style scoped>
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse-animation {
+  animation: pulse 2s infinite;
 }
 </style>
